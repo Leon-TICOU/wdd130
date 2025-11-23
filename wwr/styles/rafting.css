@@ -55,6 +55,7 @@ nav,p,section,article {
     filter: brightness(60%);
 }
 .hero h1{
+    position: absolute;
     font-size: 2.5rem;
     color: #fff;
     margin-top: 15px;
@@ -62,13 +63,15 @@ nav,p,section,article {
     z-index: 1;
 }
 .hero article{
+    position: absolute;
     display: flex;
     flex-direction: row-reverse;
+    height: 150px;
     width: 95%;
     max-width: 1100px;
     border-radius: 12px;
-    margin-top: 50px;
-    background-color: rgba(0, 0, 255, 0.2);
+    margin-top: 170px;
+    background-color: var(--accent2-color);
     z-index: 1;
     overflow: hidden;
 }
@@ -76,11 +79,12 @@ nav,p,section,article {
 .hero article p {
     font-size: 1.2rem;
     flex: 1;
-    color: rgba(0, 0, 0,1);
+    color: var(--secondary-color);
     line-height: 1.5;
     padding: 20px;
 }
 .hero article img {
+    float: right;
     width: 40%;
     object-fit: cover;
     height: 100%;
@@ -92,10 +96,8 @@ header {
     align-items: center;
     padding: 15px 50px;
     gap: 20px;
-    background: linear-gradient(90deg,#0077b6, #00b4d8);
-    box-shadow: 0 4px 6px rgba(0,0, 0, 0.1);
-    color: #fff;
-
+    background: rgb(0, 0, 255);
+    color: white;
 }
 header nav{
     justify-self: end;
@@ -167,7 +169,6 @@ header nav ul li a:hover{
 .adventures-grid figure  {
     margin: 0;
     position: relative;
-    overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s; box-shadow: 0.3s;
