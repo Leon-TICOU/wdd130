@@ -216,3 +216,53 @@ footer .socialmedia img :hover{
     transform: scale(1.2);
     opacity: 0.8;
 }
+.side-by-side {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: stretch;
+}
+.map-section, .contact-form {
+    flex:1;
+    background: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.map-container {
+    flex: 1;
+    display: flex;
+}
+.map-container iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+}
+.compagny-info {
+    background: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.compagny-info p{
+    margin: 0.3rem 0;
+    line-height: 1.3;
+}
+.employee-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: nowrap;
+}
+.employee-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+.employee-grid figure {
+    text-align: center;
+    width: 200px;
+}
