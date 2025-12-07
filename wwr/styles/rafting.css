@@ -344,3 +344,6 @@ footer .socialmedia img :hover{
 .trip-table th {
     background: #e1eef7;
 }
+.trip-table-section h2 {
+    text-align: center;
+}
