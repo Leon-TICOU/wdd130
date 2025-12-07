@@ -265,3 +265,82 @@ footer .socialmedia img :hover{
     text-align: center;
     width: 200px;
 }
+.hero-msg {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px black;
+}
+.newsletter {
+    padding: 2rem;
+    background: #eef7ff;
+    text-align: center;
+}
+.newsletter form {
+    display: inline-block;
+    text-align: left;
+}
+.newsletter input {
+    width: 250px;
+    padding: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+.newsletter button {
+    padding: 0.5rem 1rem;
+}
+.cta, .contact-cta {
+    text-align: center;
+    padding: 2rem;
+}
+.cta-btn {
+    display: inline-block;
+    background: #0066cc;
+    color: white;
+    padding: 0.7rem 1.3rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+.grid-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.grid-info img {
+    width: 100%;
+    border-radius: 6px;
+}
+.page-title {
+    text-align: center;
+    margin-top: 1rem;
+}
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+.trip-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+.trip-card section {
+    padding: 2rem;
+}
+.trip-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.trip-table-section {
+    padding: 2rem;
+}
+.trip-table th, .trip-table td {
+    border: 1px solid #ccc;
+    padding: 0.7rem;
+    text-align: center;
+}
+.trip-table th {
+    background: #e1eef7;
+}
